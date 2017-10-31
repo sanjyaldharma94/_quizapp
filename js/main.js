@@ -167,7 +167,7 @@ function submitAnswer() {
       // if the user is correct and more questions exist, move to the next question
       setTimeout(function(){
         createQuestion();
-      }, 2000);
+      }, 1000);
 
       // stop the function, user got it correect
       return;
